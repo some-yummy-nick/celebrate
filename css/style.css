@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+.questions{
+    margin-bottom: 50px;
+}
+.slider{
+    height: 300px;
+    padding:0 30px;
+    margin-bottom: 50px;
+}
+.slick-list,
+.slick-track{
+    height: 300px;
+}
+
+.slick-slide{
+    overflow: hidden;
+}
+
+.slick-slide img{
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slick-slide:focus{
+    outline: none;
+}
+
+.slick-prev::before, .slick-next::before {
+color: #000;
+}
