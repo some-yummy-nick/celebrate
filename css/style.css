@@ -9,6 +9,7 @@ body{
     padding:0 30px;
     margin-bottom: 50px;
 }
+
 .slick-list,
 .slick-track{
     height: 300px;
@@ -19,7 +20,7 @@ body{
 }
 
 .slick-slide img{
-    height: 100%;
+    height:300px;
     margin-left: auto;
     margin-right: auto;
 }
