@@ -1,21 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Selebrate</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="./css/slick-theme.css"/>
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-<div class="questions">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfhQky77qhnb0qN7soF-cc5Eez5Rc2alAua8c0XX7Wm2uGUhQ/viewform?embedded=true"
-            width="100%" height="500px" frameborder="0" marginheight="0" marginwidth="0">
-        Загрузка…
-    </iframe>
-</div>
 <div class="slider">
     <div class="slider-inner" id="js-slider">
         <div>
@@ -42,12 +24,9 @@
 
 </div>
 <script
-        src="//code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-        crossorigin="anonymous"></script>
+    src="//code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
 
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-<script src="./js/script.js"></script>
-</body>
-</html>
