@@ -1,3 +1,3 @@
 # celebrate
 
-http://yeffasol.github.io/selebrate/
+http://yeffasol.github.io/celebrate/
