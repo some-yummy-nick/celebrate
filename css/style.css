@@ -3,11 +3,24 @@ body{
 }
 .questions{
     margin-bottom: 50px;
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 100%;
 }
 .slider{
     height: 300px;
     padding:0 30px;
     margin-bottom: 50px;
+    opacity: 0%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
 }
 
 .slick-list,
@@ -31,4 +44,22 @@ body{
 
 .slick-prev::before, .slick-next::before {
 color: #000;
+}
+.wrapper{
+    position: relative;
+}
+.menu{
+    display: flex;
+    color:#fff;
+}
+.menu__item{
+    padding: 10px 0;
+    flex-grow: 1;
+    text-align: center;
+}
+.menu [data-id="questionnaire"]{
+    background: #c00;
+}
+.menu [data-id="gallery"]{
+    background: #0c0;
 }
